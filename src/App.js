@@ -11,6 +11,7 @@ import BrugerProfil from './components/brugerModul/brugerProfil/brugerProfil'
 // import Chatsite from './components/chatModul/chatsite'
 
 import './App.css';
+import Logud from './components/brugerModul/brugerProfil/logud';
 
 export default class App extends Component {
 render() {
@@ -28,7 +29,8 @@ return (
     <Route exact path="/founder/creatuser" component={CreatUserFromAdmin} />
     <Route exact path="/founder/brugerprofil" component={BrugerProfil} />
     <Route exact path="/statistik" component={Statistik} />
-    <Route exact path="/logout/" component={BrugerProfil} />
+    <Route exact path="/profil/" component={BrugerProfil} />
+    <Route exact path="/logout/" component={Logud} />
   </Switch>
   
 </Router>
