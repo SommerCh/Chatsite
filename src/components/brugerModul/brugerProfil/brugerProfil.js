@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './brugerProfil.style.css';
 import Face from './face.jpg'
-import Close from './close.png'
+
 
 export default class BrugerProfil extends Component {
 
@@ -14,9 +14,6 @@ return (
         <h1>Profil</h1>
         <img className="img" src={Face} alt="" />
 
-
-
-        {/* <img className="imgret" src={Ret} alt="" /> */}
         <div className="upload">
    
                 <input type='file' className="imageUpload" accept=".png, .jpg, .jpeg" />
@@ -47,7 +44,7 @@ return (
           
         </div>
 
-        <img className="imgclose" src={Close} alt="" />
+      
 <input className="gem" type="button" value="Gem"/>
 <input className="logud" type="button" value="Log ud"/>
     </div>

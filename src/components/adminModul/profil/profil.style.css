@@ -216,7 +216,6 @@
   margin: 0;
 }
 
-.knapTimeoutDiv {}
 
 .formtimeout {
   width: 70%;
@@ -226,18 +225,28 @@
 }
 
 .hide .formtimeout input {
-  font-size: 16px
+  font-size: 16px;
 }
 
-.radio {
-  margin: 13px 0px 0px 0px;
-  font-size: 20px;  height: 20px;
+.knapTimeoutDiv .radio {
+  margin: 15px 0px 0px 0px;
+ height: 20px;width: 20px;
+
 }
 
 
 .tilelabel {
   position: absolute;
-  margin: 14px 10px 10px 10px;
-  padding: 0px 550px 10px 10px;
-  font-size: 18px
+  margin: 14px 10px 10px 20px;
+  font-size: 18px;
 }
+
+.imgclose {
+  width: 30px;
+  margin: 0% 0% 0% 0%
+}
+
+.imgclose:hover {
+  transform: rotate(20deg);
+  cursor: pointer;
+} 

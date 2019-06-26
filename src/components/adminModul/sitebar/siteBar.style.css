@@ -53,3 +53,14 @@
 #sli1:hover {
   color: rgb(80, 73, 73)
 }
+#sli2 {
+  margin: 10% 10% 0% 1%;
+  list-style-type: none;
+  border-bottom: solid 1px;
+  cursor: pointer;
+
+}
+
+#sli2:hover {
+  color: rgb(80, 73, 73)
+}

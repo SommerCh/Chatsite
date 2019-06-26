@@ -85,19 +85,6 @@
 }
 
 
-
-.imgclose {
-    position: absolute;
-    width: 30px;
-    top: 17%;
-    right: 21%;
-}
-
-.imgclose:hover {
-    transform: rotate(20deg);
-    cursor: pointer;
-}
-
 h1 {
     text-align: center
 }

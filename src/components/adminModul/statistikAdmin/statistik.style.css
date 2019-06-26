@@ -2,15 +2,24 @@
 
 .statistik {
   display: grid;
-  grid-template-columns: 20% 50%;
-  height: 800px;
-
-
+  grid-template-columns: 20% 70%;
+  /* overflow: hidden; */
 }
 
-.chartjs-render-monitor {
-  width: 150% !important;
-  height: 100% !important;
+.div1 {
+  margin: -2% 0% 0% 5%;
 }
 
-labels{}
+.div2 {
+  margin: 0% 0% 1% 2%;
+}
+
+.seriewrap {
+  margin: 2%
+}
+
+.opdatedata {
+  position: absolute;
+  top: 36%;
+  padding: 1% 2% 1% 2%
+}

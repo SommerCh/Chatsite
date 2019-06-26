@@ -18,6 +18,7 @@
   position: absolute;
   top: 15%;
   left: 12%;
+  overflow: hidden;
 }
 
 #sidepanel {

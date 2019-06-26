@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import Moment from 'react-moment';
 import './profil.style.css';
+import Close from './close.png'
 
 
 export default class Profil extends Component {
@@ -494,7 +495,7 @@ return (
         <div className="ProfilConfirmBoxBackdrop"></div>
         <div className="ProfilConfirmBox">
             <div className="closebox" onClick={this.onClickHandlerConfirmBox}>
-                <p>X</p>
+            <img className="imgclose" src={Close} alt="" />
             </div>
 
             <p>Du skal til at <span>{this.state.confirm_name} </span> brugeren: </p>
@@ -523,7 +524,7 @@ return (
 
         <div className="ProfilConfirmBox">
             <div className="closebox" onClick={this.onClickHandlerTimeBox}>
-                <p>X</p>
+            <img className="imgclose" src={Close} alt="" />
             </div>
 
             <p>Du er ved at ændre timeout for bruger: <span> {this.state.user_name} </span></p>
