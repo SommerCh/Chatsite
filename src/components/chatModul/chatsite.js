@@ -196,8 +196,8 @@ return (
             </div>
          
                 <div className="wraptext">
-                    <input type="text" placeholder="Skriv din besked..." />
-                    <button className="submit">Send</button>
+                    <input className="inputtext" type="text" placeholder="Skriv din besked..." />
+                    <input className="submit" type="button" value="Send"/>
                 </div>
            
         </div>
